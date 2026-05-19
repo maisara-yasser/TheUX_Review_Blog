@@ -1,0 +1,424 @@
+@media screen and (min-width: 480px) {
+    /* Community Section  */
+    .community .right-div{
+        padding: 40px;
+    }
+    .community .right-div h3 {
+        font-size: 30px;
+        margin: 0 0 32px;
+    }
+    .community .right-div .info{
+        padding: 16px 16px 16px 24px;
+        margin: 0 0 32px;
+    }
+    .community .right-div .info q{
+        font-size: 18px;
+        line-height: 29px;
+        margin: 0 0 16px;
+    }
+    .community .right-div .info div span{
+        font-size: 18px;
+    }
+    .community .right-div .info div p{
+        font-size: 14px;
+    }
+    .community .right-div img {
+        width: 48px;
+        height: 48px;
+        margin: 0 16px 0 0;
+    }
+    /* Footer Part  */
+    footer{
+        padding: 80px 0;
+    }
+    footer .container{
+        gap:10px 48px ;
+    }
+    footer .column1 .head{
+        margin: 0 0 32px;
+    }
+    footer .column1 .head div{
+        width: 64px;
+        height: 64px;
+        margin: 0 16px 0 0;
+    }
+    footer .column1 .head div i{
+        font-size: 24px;
+    }
+    footer .column1 .head h1{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    footer  p{
+        font-size: 18px;
+        line-height: 29px;
+    }
+    footer h4{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    footer .paragraph{
+        margin: 0 0 16px;
+    }
+    footer .column2 ul li a{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    footer .column3 form input[type=email]{
+        padding: 16px;
+        margin: 0 0 16px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    footer .column3 form button{
+        padding: 16px 0;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    footer .hr{
+        width: 100%;
+        height: 4px;
+        background-color: #fff;
+        margin: 32px 0;
+    }  
+    footer .list li:not(:last-of-type){
+        margin: 0 32px 0 0;
+    }
+    footer .list li a{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media screen and (min-width: 640px) {
+    .home header{
+        width: 90%;
+    }
+    .home header nav{
+        padding: 12px 24px;
+    }
+    .home header nav .title_header a {
+        font-size: 30px;
+    }
+    .home header nav .title_header span{
+        font-size: 30px;
+    }
+    .home .home_caption .text{
+        flex-basis: 48%;
+        padding: 10px 20px;
+        position: relative;
+        z-index: 2;
+    }
+    .home .home_caption .text h2{
+        font-size: 69px;
+        font-weight: 900;
+        line-height: 90px;
+    }
+    .home .home_caption .text p{
+        padding: 16px;
+        font-size: 24px;
+    } 
+    .home .home_caption .text .btn button{
+        font-size: 20px;
+        padding: 14px 28px;
+    }
+    .home .home_caption .image .featured{
+        position: absolute;
+        top: -14px;
+        right:-20px;
+        padding: 8px 16px ;
+        font-size: 16px;
+    }
+    /*  LATEST ARTICLES section  */ 
+    .articles .left_contain .head h2{
+        font-size: 46px;
+        text-align-last: left;
+    }
+    .articles .left_contain .head .span{
+        display: block;
+    }
+    .articles .left_contain .box{
+        padding: 32px;
+    }
+    .articles .left_contain .box .text p{
+        font-size: 18px;
+        line-height: 29px;
+    }
+    .articles .left_contain button{
+        font-size: 20px;
+        padding: 16px 48px;
+    }
+    /* authors section  */
+    .authors .contain .box h4{
+        margin: 24px 0 8px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .authors .contain .box .job-title{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .authors .contain .box .text{
+        font-size: 16px;
+        line-height: 24px;
+        margin: 16px auto 24px;
+        /* width: 90%; */
+        padding: 0 15px;
+    }
+    .authors .contain .box .social i{
+        width: 48px;height: 48px;
+    }
+}
+@media screen and (min-width: 768px ) {
+    .articles .left_contain .box{
+        flex-direction: row;
+    } 
+    section{
+        padding: 80px 0;
+    }
+    .title::after{
+        width: 128px;
+        height: 8px;
+    }
+    .title h2{
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .title p{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .articles .left_contain .box .image{
+        margin: 0;
+    }
+    /* Footer Part  */
+    footer .container{
+        grid-template-areas: 
+        'column1 column1 column1 column1 column1'
+        'column2 column3 column3 column3 column3'
+        'hr hr hr hr hr'
+        'paragraph paragraph paragraph paragraph paragraph '
+        ' list list list list list';
+    }
+    footer .paragraph{
+        text-align: center;
+    }
+    footer .list{
+        justify-self: center;
+    }
+}
+@media screen and (min-width: 1024px ) {
+    .home .home_caption{
+        flex-direction: row;
+    }
+    .home .home_caption .text h2{
+        width: 96%;
+    }
+    .home .home_caption .image{
+        flex-basis: 48%;
+    }
+    .home .home_caption .image .relative .shape{
+        display: block;
+    }
+    .home .home_caption .image .contain_img {
+        transform: rotate(2deg);
+    }
+    .home .home_caption .image .contain_img:hover{
+        transform: rotate(2deg) translate(-2px ,-2px);
+    }
+    /*  LATEST ARTICLES section  */
+    .articles .container{
+        flex-direction: row;
+    }
+    /* authors section  */
+    .authors .contain .box{
+        flex-basis: 400px;
+    }
+    /* Community Section  */
+    .community .container{
+        grid-template-areas: 
+        'title title'
+        'leftDiv rightDiv';
+    }
+    .community .left-div h3{
+        font-size: 36px;
+    }
+    .community .left-div > p{
+        font-size: 20px;
+        margin:  24px 0;
+    }
+    .community .left-div .list .li{
+        margin: 0 0 24px;
+    }
+    .community .left-div .list .li i{
+        font-size: 20px;
+        width: 48px;
+        height: 48px;
+        margin: 0 16px 0 0;
+    }
+    .community .left-div .list .li p{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+    }
+    .community .left-div button{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        color: #fff;
+        border: none;
+        background-color: #000;
+        box-shadow: 6px 6px #000;
+        padding: 24px 48px;
+        cursor: pointer;
+        transition: 0.2s all;
+        margin: 16px 0 0 0;
+    }
+    
+}
+@media screen and (min-width: 1280px ){
+    /* Footer Part  */
+    footer{
+        background-color: #000;
+        color: #fff;
+        padding: 80px 0;
+    }
+    footer .container{
+        grid-template-areas: 
+        'column1 column1 column2 column3 column3'
+        'hr hr hr hr hr'
+        'paragraph paragraph paragraph  list list';
+        gap:10px 48px ;
+    }
+    footer .paragraph{
+        text-align: start;
+    }
+    footer .list{
+        justify-self: flex-end;
+    }
+}
+@media screen and (max-width:1280px) {
+    .home header nav .menu-btn{
+        cursor: pointer;
+        display: block;
+    }
+    .home header nav .list{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        max-width: 320px;
+        position: fixed;
+        top: 0;
+        right: -350px;
+        bottom: 0;
+        background-color: #fff;
+        padding: 20px;
+        border-left: 4px solid #000;
+        transition: 0.5s all;
+        box-shadow: 6px 6px #000;
+        z-index: 999;
+        overflow-y: auto;
+    }
+    .home header nav #menu-toggle:checked + .menu-btn + .list{
+        right: 0;
+    }
+    .home header nav .list .navHead{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+        padding: 12px 0;
+        margin: 0 0 32px;
+    }
+    .home header nav .list .navHead h4{
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .home header nav .list .navHead .close-btn{
+        padding: 8px;
+        border: 2px solid #000;
+        box-shadow: 2px 2px #000;
+        transition: 0.2s all;
+        cursor: pointer;
+    }
+    .home header nav .list .navHead .close-btn:hover{
+        background-color: #FFE2E2;
+        transform: translate(2px ,2px);
+        box-shadow: none;
+        border-color: #00000074;
+        color: #FF855F;
+    }
+    .home header nav .list .navHead .close-btn i{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .home header nav ul{
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 40px;
+        width: 100%;
+        gap: 24px;
+    }
+    .home header nav ul li{
+        transition: 0.3s;
+        width: 100%;
+    }
+    .home header nav ul li a{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+    .home header nav ul li:hover {
+        transform: translateY(-4px);
+    }
+    .home header nav ul li:hover a{
+        color: #FF855F;
+    }
+    .home header nav ul i{
+        display: none;
+    }
+    .home header nav .list button{
+        border-radius: 0;
+        box-shadow: 3px 3px #000;
+        border: 4px solid #000;
+        padding: 12px;
+        width: 100%;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+    .home header nav .list button:hover{
+        transform: translateY(-5px);
+    }
+    .home header nav .list button::before{
+        content: '\f135 ';
+        font-family: "Font Awesome 7 Free";
+        font-weight: 900;
+        margin: 0 8px 0 0;
+    }
+}
+@media screen and (max-width: 480px) {
+    .home header nav .list .navHead h4{
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .home header nav .list .navHead .close-btn{
+        padding: 4px;
+    }
+    .home header nav .list .navHead .close-btn i{
+        font-size: 16px;
+    }
+    .home header nav ul{
+        gap: 18px;
+    }
+    .home header nav ul li a{
+        font-size: 16px;
+    }
+    .home header nav .list button{
+        font-size: 12px;
+        padding: 8px;
+    }
+}
